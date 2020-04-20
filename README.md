@@ -1,4 +1,4 @@
-#Local Wordpress Boilerplate and Environment 
+# Local Wordpress Boilerplate and Environment 
 
 **What will this give you?**
  - Ready to Dev local Wordpress instance which works on OSX, Windows and Linux
