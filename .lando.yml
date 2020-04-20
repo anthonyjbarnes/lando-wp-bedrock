@@ -1,0 +1,19 @@
+name: lando-wp-bedrock
+recipe: wordpress
+proxy:
+  nginx: # This could be anything you like as long as you point the domain to 127.0.0.1 in your /etc/hosts file
+    - lando-wp-bedrock.lndo.site
+  pma: # Use the below url to access PHPMyAdmin :-)
+    - pma.lando-wp-bedrock.lndo.site
+config:
+  php: '7.3'
+  via: nginx
+  webroot: web
+  database: mariadb
+  xdebug: true
+
+services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
