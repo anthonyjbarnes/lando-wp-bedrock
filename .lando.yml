@@ -8,7 +8,7 @@ proxy:
 config:
   php: '7.3'
   via: nginx
-  webroot: web
+  webroot: public_html
   database: mariadb
   xdebug: true
 

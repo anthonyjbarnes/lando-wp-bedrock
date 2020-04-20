@@ -22,7 +22,7 @@ $root_dir = dirname(__DIR__);
  *
  * @var string
  */
-$webroot_dir = $root_dir . '/web';
+$webroot_dir = $root_dir . '/public_html';
 
 /**
  * Expose global env() function from oscarotero/env

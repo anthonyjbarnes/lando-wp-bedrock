@@ -50,11 +50,11 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "public_html/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "public_html/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "public_html/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "web/wp"
+    "wordpress-install-dir": "public_html/wp"
   },
   "scripts": {
     "post-root-package-install": [
