@@ -1,4 +1,5 @@
 #Local Wordpress Boilerplate and Environment 
+
 **What will this give you?**
  - Ready to Dev local Wordpress instance which works on OSX, Windows and Linux
  - Improved wordpress structure, swapping the dreaded /wp-content for /app
