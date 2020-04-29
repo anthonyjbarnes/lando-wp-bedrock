@@ -5,15 +5,22 @@ proxy:
     - lando-wp-bedrock.lndo.site
   pma: # Use the below url to access PHPMyAdmin :-)
     - pma.lando-wp-bedrock.lndo.site
+  mailhog:
+    - mail.lando-wp-bedrock.lndo.site
 config:
+  env: dev
   php: '7.3'
   via: nginx
   webroot: public_html
   database: mariadb
   xdebug: true
-
 services:
   pma:
     type: phpmyadmin
     hosts:
       - database
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+    portforward: true
