@@ -5,7 +5,7 @@ proxy:
     - lando-wp-bedrock.lndo.site
   pma: # Use the below url to access PHPMyAdmin :-)
     - pma.lando-wp-bedrock.lndo.site
-  mailhog:
+  mailhog: # Use mail url for a way to view emails send from your local dev instance
     - mail.lando-wp-bedrock.lndo.site
 config:
   env: dev
