@@ -6,7 +6,7 @@
  - Composer dependency management for WP Core and WP Plugins
  - Docker container LEMP Stack
  - PHPMyAdmin for easy Database Management
- - WP ClI out of the box 
+ - WP-Cli out of the box 
  
 
 ## Instructions
